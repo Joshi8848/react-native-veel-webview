@@ -78,8 +78,7 @@
   "peerDependencies": {
     "react": "*",
     "react-native": "*",
-    "react-native-web": "~0.19.10",
-    "react-native-webview": "^13.10.3"
+    "react-native-webview": "*"
   },
   "workspaces": [
     "example"
