@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { Modal, View, Button, Pressable } from 'react-native';
+import { Modal, View, Button, Pressable, Image } from 'react-native';
 import { WebView } from 'react-native-webview';
-import Close from './Close';
+import Close from '../assets/close.png';
 
 export default function VeelWebView() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -42,7 +42,13 @@ export default function VeelWebView() {
               setIsModalOpen(false);
             }}
           >
-            <Close />
+            <Image
+              source={Close}
+              style={{
+                width: 25,
+                height: 25,
+              }}
+            />
           </Pressable>
         </View>
         <WebView source={{ uri: 'https://dev.veelapp.com' }} />
