@@ -1,6 +1,6 @@
 {
   "name": "rn-veel-webview",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "Veel webview",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
