@@ -5,17 +5,21 @@ Veel webview
 ## Installation
 
 ```sh
-npm install react-native-veel-webview
+npm install rn-veel-webview
 ```
 
 ## Usage
 
 ```js
-import { multiply } from 'react-native-veel-webview';
 
-// ...
+import VeelWebView from 'rn-veel-webview';
 
-const result = await multiply(3, 7);
+return (
+    <View style={styles.container}>
+        <VeelWebView>
+    </View>
+)
+
 ```
 
 ## Contributing

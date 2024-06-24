@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Modal, View, Button, Pressable } from 'react-native';
 import { WebView } from 'react-native-webview';
-import Close from '../assets/Close';
+import Close from './Close';
 
 export default function VeelWebView() {
   const [isModalOpen, setIsModalOpen] = useState(false);
